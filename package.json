@@ -1,0 +1,19 @@
+{
+  "name": "network-reflector",
+  "version": "1.0.0",
+  "description": "This is a React Component which  can choose to render its children according to different network environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melodyWxy/NetworkReflector.git"
+  },
+  "author": "melodyWxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melodyWxy/NetworkReflector/issues"
+  },
+  "homepage": "https://github.com/melodyWxy/NetworkReflector#readme"
+}
