@@ -1,19 +1,37 @@
 {
   "name": "network-reflector",
   "version": "1.0.0",
-  "description": "This is a React Component which  can choose to render its children according to different network environments.",
+  "description": "This is a React Component which can choose to render its children according to different network environments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melodyWxy/NetworkReflector.git"
   },
-  "author": "pengyouwei melodyWxy",
+  "author": "melodyWxy <18210711176@163.com>",
+  "contributors": [{
+    "name": "pengyouwei",
+    "email": "18214999403@163.com"
+  }],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/melodyWxy/NetworkReflector/issues"
   },
-  "homepage": "https://github.com/melodyWxy/NetworkReflector#readme"
+  "homepage": "https://github.com/melodyWxy/NetworkReflector#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0"
+  }
 }
